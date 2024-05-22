@@ -17,23 +17,24 @@ package ch.hslu.ad.sw05.balls;
 
 import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
+
 import java.util.Random;
 
 /**
  * Represents a ball
  *
  * @author Raquel Lima
- *
  * @version 1.0
  */
 public class Ball implements Runnable {
 
-    private final Circle circle;
-
     private static final Logger LOG = LoggerFactory.getLogger(Ball.class);
 
+    private final Circle circle;
+
+
     public Ball(final int radius, final int xPos, final int yPos, String color) {
-        this.circle = new Circle(radius*2, xPos, yPos, color);
+        this.circle = new Circle(radius * 2, xPos, yPos, color);
     }
 
     @Override

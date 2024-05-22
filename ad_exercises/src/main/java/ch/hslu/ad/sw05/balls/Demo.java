@@ -33,6 +33,7 @@ public final class Demo {
      */
     public static void main(final String[] args) {
 
+        //probieren in ball run methode implementieren als singleton
         Canvas canvas = Canvas.getCanvas();
 
         final String[] colors = {"red", "black", "blue", "yellow", "green", "magenta"};
@@ -42,7 +43,7 @@ public final class Demo {
 
         for (int i = 0; i < balls.length; i++) {
             String color = colors[random.nextInt(colors.length)];
-            int radius = random.nextInt(31) + 20;
+            int radius = random.nextInt(30) + 20;
             int xPos = random.nextInt(canvas.getWidth() - radius) + radius / 2;
             int yPos = random.nextInt(canvas.getHeight() - radius) + radius / 2;
 
