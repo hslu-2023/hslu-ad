@@ -1,9 +1,6 @@
 package ch.hslu.ad.sw13.simpleSearch;
 
 public class SimpleSearch {
-    public static void main(String[] args) {
-        simpleSearch("bbbbbb", "aaaa");
-    }
     /**
      * Searches a character string using simple search.
      * @param a character string to be searched.
@@ -16,7 +13,6 @@ public class SimpleSearch {
         for (int index = 0; index <= maxIndex; index++) {
             boolean success = true;
             for (int j = 0; j < p.length(); j++) {
-                System.out.println("hello");
                 if (a.charAt(index + j) != p.charAt(j)) {
                     success = false;
                     break;
