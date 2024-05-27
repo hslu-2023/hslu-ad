@@ -21,6 +21,7 @@ public class Demo {
 
         measureAllSearchRuntime("dracula.txt","1 MB", "aber");
         measureAllSearchRuntime("bible.txt","5 MB", "aber");
+
     }
 
     public static void measureAllSearchRuntime(String filename, String fileSize, String p) {

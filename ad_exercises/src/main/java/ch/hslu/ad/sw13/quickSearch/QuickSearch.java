@@ -12,6 +12,7 @@ public class QuickSearch {
         final int m = p.length();
         final int range = 256; // -> ASCII-Range
         final int[] shift = new int[range];
+
         // init shift-array
         for (int i = 0; i < range; i++) {
             shift[i] = m + 1;

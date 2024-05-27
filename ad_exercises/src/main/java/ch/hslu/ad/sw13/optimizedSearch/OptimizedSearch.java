@@ -3,7 +3,7 @@ package ch.hslu.ad.sw13.optimizedSearch;
 public class OptimizedSearch {
 
     public static void main(String[] args) {
-        System.out.println(stateSearch("ANANAS"));
+        System.out.println(stateSearch("SSSSANANAS"));
     }
 
     /**
