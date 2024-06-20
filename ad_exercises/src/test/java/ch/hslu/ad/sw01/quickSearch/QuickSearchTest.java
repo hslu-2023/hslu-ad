@@ -1,4 +1,4 @@
-package ch.hslu.ad.sw02.quickSearch;
+package ch.hslu.ad.sw01.quickSearch;
 
 import ch.hslu.ad.sw13.quickSearch.QuickSearch;
 import org.junit.jupiter.api.Test;
