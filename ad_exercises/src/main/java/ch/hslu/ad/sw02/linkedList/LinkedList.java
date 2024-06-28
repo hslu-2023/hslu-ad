@@ -117,7 +117,7 @@ public class LinkedList<T> extends AbstractList<T> {
 
         @Override
         public boolean hasNext() {
-            return current != null;
+            return current.next != null;
         }
 
         @Override

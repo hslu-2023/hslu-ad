@@ -6,7 +6,7 @@ public class Semaphore {
         Semaphore semaphore = new Semaphore(3, 5);
 
         try {
-            semaphore.acquire(3);
+            semaphore.acquire(2);
             System.out.println("Acquired 2 permits. Available permits: " + semaphore.getAvailablePermits());
             semaphore.release(1);
             System.out.println("Released 1 permit. Available permits: " + semaphore.getAvailablePermits());

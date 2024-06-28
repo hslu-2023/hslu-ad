@@ -15,7 +15,6 @@ public class PrimeCheck {
 
     private static final Logger LOG = LoggerFactory.getLogger(PrimeCheck.class);
 
-
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         final long start = System.currentTimeMillis();
         LOG.info("Anzahl Kerne = {}", Runtime.getRuntime().availableProcessors());
